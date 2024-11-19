@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Circular;
+    src: url('assets/Circular\ Std\ Medium\ 500.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Circular;
+}
+body{
+    background-color: #1A1A1D;
+}
+.navbar{
+    padding: 25px;
+}
+li{
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin-right: 45%;
+}
+.navbar-brand{
+    margin-left: 25%;
+    font-size: 30px;
+    color: #950740;
+}
+.contact-link{
+    border: 2px solid #6f2232;
+}
+.contact-item :hover{
+    background-color: #950740;
+}
+
+.banner{
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+.banner-container{
+    margin-top: 50px;
+}
+.bannerH1{
+    font-size: 120px;
+}
+
+.bannerH6{
+    font-size: 30px; 
+}
+
+.banner-img{
+    filter: invert(100%);
+    margin-left: 150px ;
+}
+
+.genreDiv{
+    margin-top: 200px;
+    margin-bottom: 75px;
+}
+
+.mainlyPlays{
+    font-size: 45px;
+}
+
+.card{
+    width: 450px;
+    height: 450px;
+    background-color: #1A1A1D;
+    margin: 5px;
+    border: 3px solid #e0e0e0;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    .card {
+      width: 300px;
+      height: 300px;
+    }
+    .mainlyPlays{
+        text-align: center;
+    }
+    .about-img{
+        height: 250px;
+        width: 250px;
+    }
+    .aboutMeDiv{
+        text-align: center;
+    }
+    .banner{
+        margin-top: 0%;
+    }
+  }
+
+.card-vid{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+.card-vid:hover{
+    opacity: 1;
+}
+.card:hover{
+    transform: scale(1.03);
+    background-color: #e0e0e0; 
+}
+.card-title{
+    font-size: 60px;
+}
+.coversDiv{
+    margin-top: 15px;
+}
+.coversBtn{
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #1A1A1D;
+    border: 3px solid #e0e0e0;
+    transition: all 0.3s;
+}
+
+.coversBtn:hover{
+    background-color: #950740;
+    border: 0;
+}
+
+
+.aboutMe{
+    margin-top: 210px;
+    margin-bottom: 210px;
+}
+.aboutMeDiv{
+    height: 450px;
+    width: 450px;
+    margin: 5;
+}
+
+.biography{
+    margin-top: 50px;
+    width: 60%;
+}
+.biographyBtn{
+    width: 60%;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #950740;
+    border: 0;
+    transition: transform 0.3s;
+}
+
+.biographyBtn:hover{
+    transform: scale(1.03);
+}
+
+.footer{
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.socialsBtn{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    background-color: #1A1A1D;
+    border: 3px solid white;
+    transition: transform 0.3s;
+}
+.socialsBtn:hover{
+    transform: scale(1.10);
+}
+.icons{
+    filter: invert(100%);
+    height: 75%;
+    width: 75%;
+}
+
+#footerP {
+    margin-top: 25px;
+}
+.about-img{
+    height: 450px;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px white;
+}
